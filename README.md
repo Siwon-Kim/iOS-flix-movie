@@ -1,4 +1,4 @@
-# iOS-flix-movie
+# iOS-flix-movie-list
 Flix is an iOS app for users to browser the list of movies using [Movie web API](https://developers.themoviedb.org/3/movies/get-now-playing).
 
 ## User Stories
