@@ -5,6 +5,7 @@ Flix is an iOS app for users to browser the list of movies using [Movie web API]
 * User sees an app icon on the home screen.
 * User can view and scroll through a list of movies.
 * User can view the title, synopsis, and poster for movies.
+* User can view the same auto-layouted contents with constraints in other devices.
 
 ## iOS App Walkthrough GIF
 ![Flix GIF](https://github.com/Siwon-Kim/iOS-flix-movie/blob/main/iOS-flix-movie.gif)
