@@ -14,4 +14,4 @@ Flix is an iOS app for users to browser the list of movies using [Movie web API]
 * Link each outlet correctly
 * Install Pod using terminal 
 * Import AlamofireImage as a package
-* commit the files using `git remote add origin https://github.com/Siwon-Kim/iOS-flix-movie-list`
+* commit the files using `git remote add origin https://github.com/Siwon-Kim/iOS-flix-movie`
