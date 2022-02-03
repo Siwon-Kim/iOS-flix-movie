@@ -2,7 +2,7 @@
 //  flixTests.swift
 //  flixTests
 //
-//  Created by 김시원 on 1/31/22.
+//  Created by 김시원 on 2/2/22.
 //
 
 import XCTest

@@ -2,16 +2,16 @@
 //  MovieCell.swift
 //  flix
 //
-//  Created by 김시원 on 1/31/22.
+//  Created by 김시원 on 2/2/22.
 //
 
 import UIKit
 
 class MovieCell: UITableViewCell {
+
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var synopsisLabel: UILabel!
     @IBOutlet weak var posterView: UIImageView!
-    
     
     override func awakeFromNib() {
         super.awakeFromNib()

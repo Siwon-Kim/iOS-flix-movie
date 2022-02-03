@@ -5,8 +5,10 @@ target 'flix' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
+
   # Pods for flix
   pod "AlamofireImage"
+
 
   target 'flixTests' do
     inherit! :search_paths

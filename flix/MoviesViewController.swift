@@ -2,11 +2,11 @@
 //  ViewController.swift
 //  flix
 //
-//  Created by 김시원 on 1/31/22.
+//  Created by 김시원 on 2/2/22.
 //
 
 import UIKit
-import Alamofire
+import Alamofire // import Package
 import AlamofireImage
 
 class MoviesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
@@ -30,7 +30,6 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
                     print(error.localizedDescription)
              } else if let data = data {
                     let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
-//                 print(dataDictionary)
                  
                     self.movies = dataDictionary["results"] as! [[String: Any]]
                  print(movies)
@@ -69,8 +68,4 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         
         return cell
     }
-    
-    
-
 }
-
